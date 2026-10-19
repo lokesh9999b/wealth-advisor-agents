@@ -1,0 +1,66 @@
+
+======================================================================
+  WEALTH ADVISORY REPORT — Robert Alvarez (C002)
+======================================================================
+Run ID        : 70cc99b2
+Generated     : 2026-10-19T11:04:48+00:00
+Risk posture  : HIGH
+Narrative via : template
+
+PORTFOLIO METRICS
+----------------------------------------------------------------------
+  Total AUM           : $500,000
+  Cash                : $25,000 (5%)
+  Holdings            : 5
+  Largest position    : TSLA ($225,000, 45%)
+  Allocation          : cash 5%, equity 85%, fixed_income 10%
+  Weighted fee        : 0.04%
+
+ANOMALIES & RISK SIGNALS (6)
+----------------------------------------------------------------------
+  • [HIGH] Over-concentration in TSLA
+      TSLA is 45% of total AUM, above the 25% single-holding limit. This exposes the client to idiosyncratic risk.
+  • [HIGH] Allocation drift in equity
+      equity is over-weight by 25% vs target (85% actual vs 60% target).
+  • [HIGH] Allocation drift in fixed_income
+      fixed_income is under-weight by 20% vs target (10% actual vs 30% target).
+  • [HIGH] Large buy transaction (TSLA)
+      A buy of 150,000 in TSLA on 2026-10-05 is 30% of AUM — an unusually large single move.
+  • [MEDIUM] Outlier transaction (ARKK)
+      A sell of 60,000 in ARKK on 2026-09-20 is a statistical outlier (modified z-score (MAD)) vs the client's typical transaction size.
+  • [MEDIUM] Possible duplicate buy (AAPL)
+      Two buy transactions of 7,000 in AAPL occurred within 3 days — possible double entry.
+
+RECOMMENDATIONS (7)
+----------------------------------------------------------------------
+  1. [HIGH] Over-concentration in TSLA
+      Action: Consider trimming and diversifying the position.
+  2. [HIGH] Allocation drift in equity
+      Action: Rebalance equity toward its target weight.
+  3. [HIGH] Allocation drift in fixed_income
+      Action: Rebalance fixed_income toward its target weight.
+  4. [HIGH] Large buy transaction (TSLA)
+      Action: Confirm this transaction was intended.
+  5. [MEDIUM] Outlier transaction (ARKK)
+      Action: Review for error or unusual activity.
+  6. [MEDIUM] Possible duplicate buy (AAPL)
+      Action: Verify this is not a duplicate submission.
+  7. [MEDIUM] Complete KYC verification
+      Action: Follow up to complete KYC before acting on advice.
+
+ADVISORY SUMMARY
+----------------------------------------------------------------------
+Robert Alvarez holds a portfolio of approximately $500,000 across 5 holding(s), with 5% in cash. Stated risk tolerance: moderate. Overall risk posture is assessed as HIGH.
+
+Key findings: Over-concentration in TSLA (high); Allocation drift in equity (high); Allocation drift in fixed_income (high).
+
+This is the first review on record for this client.
+
+Recommended next steps: Over-concentration in TSLA — Consider trimming and diversifying the position.; Allocation drift in equity — Rebalance equity toward its target weight.; Allocation drift in fixed_income — Rebalance fixed_income toward its target weight.
+
+HUMAN-IN-THE-LOOP
+----------------------------------------------------------------------
+  Checkpoint : skipped (auto-approved (non-interactive session or --yes/--no-hitl))
+  Decision   : approved
+======================================================================
+

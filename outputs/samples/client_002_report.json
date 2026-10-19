@@ -1,0 +1,194 @@
+
+{
+  "run_id": "07c07148",
+  "client_id": "C002",
+  "client_name": "Robert Alvarez",
+  "generated_at": "2026-10-19T11:04:48+00:00",
+  "risk_posture": "high",
+  "summary_narrative": "Robert Alvarez holds a portfolio of approximately $500,000 across 5 holding(s), with 5% in cash. Stated risk tolerance: moderate. Overall risk posture is assessed as HIGH.\n\nKey findings: Over-concentration in TSLA (high); Allocation drift in fixed_income (high); Allocation drift in equity (high).\n\nThis is the first review on record for this client.\n\nRecommended next steps: Over-concentration in TSLA \u2014 Consider trimming and diversifying the position.; Allocation drift in fixed_income \u2014 Rebalance fixed_income toward its target weight.; Allocation drift in equity \u2014 Rebalance equity toward its target weight.",
+  "narrative_source": "template",
+  "recommendations": [
+    {
+      "title": "Over-concentration in TSLA",
+      "action": "Consider trimming and diversifying the position.",
+      "rationale": "TSLA is 45% of total AUM, above the 25% single-holding limit. This exposes the client to idiosyncratic risk.",
+      "priority": "HIGH",
+      "related_anomaly_type": "concentration_risk"
+    },
+    {
+      "title": "Allocation drift in fixed_income",
+      "action": "Rebalance fixed_income toward its target weight.",
+      "rationale": "fixed_income is under-weight by 20% vs target (10% actual vs 30% target).",
+      "priority": "HIGH",
+      "related_anomaly_type": "allocation_drift"
+    },
+    {
+      "title": "Allocation drift in equity",
+      "action": "Rebalance equity toward its target weight.",
+      "rationale": "equity is over-weight by 25% vs target (85% actual vs 60% target).",
+      "priority": "HIGH",
+      "related_anomaly_type": "allocation_drift"
+    },
+    {
+      "title": "Large buy transaction (TSLA)",
+      "action": "Confirm this transaction was intended.",
+      "rationale": "A buy of 150,000 in TSLA on 2026-10-05 is 30% of AUM \u2014 an unusually large single move.",
+      "priority": "HIGH",
+      "related_anomaly_type": "large_transaction"
+    },
+    {
+      "title": "Outlier transaction (ARKK)",
+      "action": "Review for error or unusual activity.",
+      "rationale": "A sell of 60,000 in ARKK on 2026-09-20 is a statistical outlier (modified z-score (MAD)) vs the client's typical transaction size.",
+      "priority": "MEDIUM",
+      "related_anomaly_type": "transaction_outlier"
+    },
+    {
+      "title": "Possible duplicate buy (AAPL)",
+      "action": "Verify this is not a duplicate submission.",
+      "rationale": "Two buy transactions of 7,000 in AAPL occurred within 3 days \u2014 possible double entry.",
+      "priority": "MEDIUM",
+      "related_anomaly_type": "duplicate_transaction"
+    },
+    {
+      "title": "Complete KYC verification",
+      "action": "Follow up to complete KYC before acting on advice.",
+      "rationale": "KYC status is 'pending'.",
+      "priority": "MEDIUM",
+      "related_anomaly_type": null
+    }
+  ],
+  "anomalies": [
+    {
+      "type": "concentration_risk",
+      "severity": "HIGH",
+      "title": "Over-concentration in TSLA",
+      "explanation": "TSLA is 45% of total AUM, above the 25% single-holding limit. This exposes the client to idiosyncratic risk.",
+      "evidence": {
+        "symbol": "TSLA",
+        "pct": 0.45,
+        "value": 225000.0
+      },
+      "recommendation_hint": "Consider trimming and diversifying the position.",
+      "recurring": false
+    },
+    {
+      "type": "allocation_drift",
+      "severity": "HIGH",
+      "title": "Allocation drift in fixed_income",
+      "explanation": "fixed_income is under-weight by 20% vs target (10% actual vs 30% target).",
+      "evidence": {
+        "asset_class": "fixed_income",
+        "actual": 0.1,
+        "target": 0.3,
+        "drift": -0.2
+      },
+      "recommendation_hint": "Rebalance fixed_income toward its target weight.",
+      "recurring": false
+    },
+    {
+      "type": "allocation_drift",
+      "severity": "HIGH",
+      "title": "Allocation drift in equity",
+      "explanation": "equity is over-weight by 25% vs target (85% actual vs 60% target).",
+      "evidence": {
+        "asset_class": "equity",
+        "actual": 0.85,
+        "target": 0.6,
+        "drift": 0.25
+      },
+      "recommendation_hint": "Rebalance equity toward its target weight.",
+      "recurring": false
+    },
+    {
+      "type": "large_transaction",
+      "severity": "HIGH",
+      "title": "Large buy transaction (TSLA)",
+      "explanation": "A buy of 150,000 in TSLA on 2026-10-05 is 30% of AUM \u2014 an unusually large single move.",
+      "evidence": {
+        "symbol": "TSLA",
+        "amount": 150000.0,
+        "date": "2026-10-05",
+        "pct_of_aum": 0.3
+      },
+      "recommendation_hint": "Confirm this transaction was intended.",
+      "recurring": false
+    },
+    {
+      "type": "transaction_outlier",
+      "severity": "MEDIUM",
+      "title": "Outlier transaction (ARKK)",
+      "explanation": "A sell of 60,000 in ARKK on 2026-09-20 is a statistical outlier (modified z-score (MAD)) vs the client's typical transaction size.",
+      "evidence": {
+        "symbol": "ARKK",
+        "amount": 60000.0,
+        "date": "2026-09-20",
+        "zscore": 2.23,
+        "modified_zscore": 48.11,
+        "flagged_by": "modified z-score (MAD)"
+      },
+      "recommendation_hint": "Review for error or unusual activity.",
+      "recurring": false
+    },
+    {
+      "type": "duplicate_transaction",
+      "severity": "MEDIUM",
+      "title": "Possible duplicate buy (AAPL)",
+      "explanation": "Two buy transactions of 7,000 in AAPL occurred within 3 days \u2014 possible double entry.",
+      "evidence": {
+        "symbol": "AAPL",
+        "amount": 7000.0,
+        "date": "2026-09-16"
+      },
+      "recommendation_hint": "Verify this is not a duplicate submission.",
+      "recurring": false
+    }
+  ],
+  "metrics": {
+    "total_aum": 500000.0,
+    "total_cash": 25000.0,
+    "cash_pct": 0.05,
+    "allocation": {
+      "equity": 0.85,
+      "fixed_income": 0.1,
+      "cash": 0.05
+    },
+    "target_allocation": {
+      "equity": 0.6,
+      "fixed_income": 0.3,
+      "cash": 0.1
+    },
+    "allocation_drift": {
+      "fixed_income": -0.2,
+      "cash": -0.05,
+      "equity": 0.25
+    },
+    "top_holding": {
+      "symbol": "TSLA",
+      "value": 225000.0,
+      "pct": 0.45
+    },
+    "holdings_count": 5,
+    "weighted_expense_ratio": 0.00043
+  },
+  "degraded_mode": false,
+  "warnings": [],
+  "hitl": {
+    "performed": false,
+    "skipped_reason": "auto-approved (non-interactive session or --yes/--no-hitl)",
+    "decision": "approved",
+    "notes": "",
+    "overrides": []
+  },
+  "meta": {
+    "memory_comparison": {
+      "first_review": true
+    },
+    "elapsed_seconds": 0.056,
+    "crm_available": true
+  }
+}
+
+Artifacts written:
+  report : outputs\samples\07c07148_C002_report.json
+  trace  : outputs\samples\07c07148_trace.json

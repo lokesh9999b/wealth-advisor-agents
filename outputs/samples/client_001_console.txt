@@ -1,0 +1,43 @@
+
+======================================================================
+  WEALTH ADVISORY REPORT — Jane Chen (C001)
+======================================================================
+Run ID        : 1a1842b9
+Generated     : 2026-10-19T11:04:47+00:00
+Risk posture  : STABLE
+Narrative via : template
+
+PORTFOLIO METRICS
+----------------------------------------------------------------------
+  Total AUM           : $600,000
+  Cash                : $60,000 (10%)
+  Holdings            : 6
+  Largest position    : BND ($108,000, 18%)
+  Allocation          : cash 10%, equity 60%, fixed_income 30%
+  Weighted fee        : 0.03%
+
+ANOMALIES & RISK SIGNALS (0)
+----------------------------------------------------------------------
+  None detected.
+
+RECOMMENDATIONS (1)
+----------------------------------------------------------------------
+  1. [LOW] No action required
+      Action: Maintain current strategy; review at the next cycle.
+
+ADVISORY SUMMARY
+----------------------------------------------------------------------
+Jane Chen holds a portfolio of approximately $600,000 across 6 holding(s), with 10% in cash. Stated risk tolerance: moderate. Overall risk posture is assessed as STABLE.
+
+No anomalies or risk signals were detected this review.
+
+This is the first review on record for this client.
+
+Recommended next steps: No action required — Maintain current strategy; review at the next cycle.
+
+HUMAN-IN-THE-LOOP
+----------------------------------------------------------------------
+  Checkpoint : skipped (no high-severity findings required review)
+  Decision   : approved
+======================================================================
+

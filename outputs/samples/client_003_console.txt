@@ -1,0 +1,54 @@
+
+======================================================================
+  WEALTH ADVISORY REPORT — Sofia Minimal (C003)
+======================================================================
+Run ID        : 4e7d4a00
+Generated     : 2026-10-19T11:04:48+00:00
+Risk posture  : ELEVATED
+Narrative via : template
+Mode          : DEGRADED (some context unavailable)
+
+PORTFOLIO METRICS
+----------------------------------------------------------------------
+  Total AUM           : $4,000
+  Cash                : $2,000 (50%)
+  Holdings            : 2
+  Largest position    : GOOGL ($1,500, 38%)
+  Allocation          : cash 50%, equity 38%, unknown 12%
+
+ANOMALIES & RISK SIGNALS (2)
+----------------------------------------------------------------------
+  • [MEDIUM] Over-concentration in GOOGL
+      GOOGL is 38% of total AUM, above the 25% single-holding limit. This exposes the client to idiosyncratic risk.
+  • [LOW] Excess idle cash
+      50% of AUM sits in cash (above the 20% guideline), creating cash drag.
+
+RECOMMENDATIONS (2)
+----------------------------------------------------------------------
+  1. [MEDIUM] Over-concentration in GOOGL
+      Action: Consider trimming and diversifying the position.
+  2. [LOW] Excess idle cash
+      Action: Deploy excess cash per the target allocation.
+
+ADVISORY SUMMARY
+----------------------------------------------------------------------
+Sofia Minimal holds a portfolio of approximately $4,000 across 2 holding(s), with 50% in cash. Stated risk tolerance: unknown. Overall risk posture is assessed as ELEVATED.
+
+Key findings: Over-concentration in GOOGL (medium); Excess idle cash (low).
+
+This is the first review on record for this client.
+
+Recommended next steps: Over-concentration in GOOGL — Consider trimming and diversifying the position.; Excess idle cash — Deploy excess cash per the target allocation.
+
+Note: this review ran in degraded mode due to missing context — No CRM record found for this client.
+
+HUMAN-IN-THE-LOOP
+----------------------------------------------------------------------
+  Checkpoint : skipped (no high-severity findings required review)
+  Decision   : approved
+
+WARNINGS
+----------------------------------------------------------------------
+  ! No CRM record found for this client.
+======================================================================
+

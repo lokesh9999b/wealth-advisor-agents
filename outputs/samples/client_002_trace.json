@@ -1,0 +1,94 @@
+{
+  "run_id": "07c07148",
+  "client_id": "C002",
+  "elapsed_seconds": 0.059,
+  "facts": {
+    "client_id": "C002",
+    "client_name": "Robert Alvarez",
+    "total_aum": 500000.0
+  },
+  "notes": [
+    "No prior run on record \u2014 this is the first review."
+  ],
+  "events": [
+    {
+      "t": 1792407888.864,
+      "kind": "plan",
+      "steps": [
+        "data_fetcher",
+        "analyzer",
+        "hitl_checkpoint",
+        "advisor"
+      ]
+    },
+    {
+      "t": 1792407888.867,
+      "kind": "tool_call",
+      "agent": "data_fetcher",
+      "tool": "financial_data",
+      "ok": true,
+      "latency_ms": 0.2,
+      "attempts": 1,
+      "error": null
+    },
+    {
+      "t": 1792407888.897,
+      "kind": "tool_call",
+      "agent": "data_fetcher",
+      "tool": "crm_api",
+      "ok": true,
+      "latency_ms": 30.8,
+      "attempts": 1,
+      "error": null
+    },
+    {
+      "t": 1792407888.919,
+      "kind": "tool_call",
+      "agent": "data_fetcher",
+      "tool": "market_data",
+      "ok": true,
+      "latency_ms": 20.6,
+      "attempts": 1,
+      "error": null
+    },
+    {
+      "t": 1792407888.919,
+      "kind": "agent_result",
+      "agent": "data_fetcher",
+      "status": "success"
+    },
+    {
+      "t": 1792407888.919,
+      "kind": "tool_call",
+      "agent": "analyzer",
+      "tool": "anomaly_detection",
+      "ok": true,
+      "latency_ms": 0.2,
+      "attempts": 1,
+      "error": null
+    },
+    {
+      "t": 1792407888.919,
+      "kind": "agent_result",
+      "agent": "analyzer",
+      "status": "success"
+    },
+    {
+      "t": 1792407888.92,
+      "kind": "hitl",
+      "performed": false,
+      "decision": "approved"
+    },
+    {
+      "t": 1792407888.92,
+      "kind": "agent_result",
+      "agent": "advisor",
+      "status": "success"
+    },
+    {
+      "t": 1792407888.921,
+      "kind": "memory_persisted",
+      "client_id": "C002"
+    }
+  ]
+}
