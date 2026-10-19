@@ -1,0 +1,9 @@
+# --- Runtime dependencies (BOTH are optional) ---
+# The full pipeline runs on the Python standard library alone. These only
+# enable the optional LLM-generated advisory narrative. With no key / no
+# install, the system falls back to a deterministic templated narrative.
+anthropic>=0.39.0          # optional: Claude API client for the narrative
+python-dotenv>=1.0.0       # optional: load ANTHROPIC_API_KEY from a .env file
+
+# --- Dev / test ---
+pytest>=7.4.0

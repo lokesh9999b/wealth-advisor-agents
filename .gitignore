@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+build/
+dist/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Secrets
+.env
+
+# Generated run artifacts (keep the committed samples/ folder + .gitkeep)
+outputs/*
+!outputs/.gitkeep
+!outputs/samples/
+!outputs/samples/**
+
+# Long-term memory store is runtime state, not source
+data/memory_store.json
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
