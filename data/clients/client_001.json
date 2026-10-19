@@ -1,0 +1,27 @@
+{
+  "client_id": "C001",
+  "name": "Jane Chen",
+  "as_of_date": "2026-10-19",
+  "target_allocation": { "equity": 0.60, "fixed_income": 0.30, "cash": 0.10 },
+  "accounts": [
+    {
+      "account_id": "A1",
+      "type": "brokerage",
+      "cash_balance": 60000,
+      "holdings": [
+        { "symbol": "AAPL", "asset_class": "equity", "quantity": 450, "price": 200, "expense_ratio": 0.0 },
+        { "symbol": "MSFT", "asset_class": "equity", "quantity": 180, "price": 500, "expense_ratio": 0.0 },
+        { "symbol": "VTI", "asset_class": "equity", "quantity": 300, "price": 300, "expense_ratio": 0.0003 },
+        { "symbol": "SPY", "asset_class": "equity", "quantity": 180, "price": 500, "expense_ratio": 0.0009 },
+        { "symbol": "BND", "asset_class": "fixed_income", "quantity": 1500, "price": 72, "expense_ratio": 0.0003 },
+        { "symbol": "AGG", "asset_class": "fixed_income", "quantity": 720, "price": 100, "expense_ratio": 0.0003 }
+      ]
+    }
+  ],
+  "transactions": [
+    { "date": "2026-09-10", "type": "buy", "symbol": "VTI", "amount": 9000 },
+    { "date": "2026-09-20", "type": "buy", "symbol": "BND", "amount": 8000 },
+    { "date": "2026-10-01", "type": "buy", "symbol": "SPY", "amount": 7500 },
+    { "date": "2026-10-10", "type": "buy", "symbol": "AGG", "amount": 8500 }
+  ]
+}

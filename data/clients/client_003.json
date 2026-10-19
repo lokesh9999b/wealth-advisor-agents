@@ -1,0 +1,22 @@
+{
+  "client_id": "C003",
+  "name": "Sofia Minimal",
+  "accounts": [
+    {
+      "account_id": "A1",
+      "type": "brokerage",
+      "cash_balance": 2000,
+      "holdings": [
+        { "symbol": "GOOGL", "asset_class": "equity", "quantity": 10, "price": 150 }
+      ]
+    },
+    {
+      "account_id": "A2",
+      "cash_balance": 0,
+      "holdings": [
+        { "symbol": "OLDBOND", "quantity": 5, "price": 100 }
+      ]
+    }
+  ],
+  "transactions": []
+}

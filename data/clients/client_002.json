@@ -1,0 +1,29 @@
+{
+  "client_id": "C002",
+  "name": "Robert Alvarez",
+  "as_of_date": "2026-10-19",
+  "target_allocation": { "equity": 0.60, "fixed_income": 0.30, "cash": 0.10 },
+  "accounts": [
+    {
+      "account_id": "A1",
+      "type": "brokerage",
+      "cash_balance": 25000,
+      "holdings": [
+        { "symbol": "TSLA", "asset_class": "equity", "quantity": 1000, "price": 225, "expense_ratio": 0.0 },
+        { "symbol": "NVDA", "asset_class": "equity", "quantity": 200, "price": 500, "expense_ratio": 0.0 },
+        { "symbol": "AAPL", "asset_class": "equity", "quantity": 375, "price": 200, "expense_ratio": 0.0 },
+        { "symbol": "ARKK", "asset_class": "equity", "quantity": 1000, "price": 25, "expense_ratio": 0.0075 },
+        { "symbol": "BND", "asset_class": "fixed_income", "quantity": 1000, "price": 50, "expense_ratio": 0.0003 }
+      ]
+    }
+  ],
+  "transactions": [
+    { "date": "2026-08-01", "type": "buy", "symbol": "AAPL", "amount": 5000 },
+    { "date": "2026-08-15", "type": "buy", "symbol": "NVDA", "amount": 6000 },
+    { "date": "2026-09-01", "type": "buy", "symbol": "BND", "amount": 5500 },
+    { "date": "2026-09-15", "type": "buy", "symbol": "AAPL", "amount": 7000 },
+    { "date": "2026-09-16", "type": "buy", "symbol": "AAPL", "amount": 7000 },
+    { "date": "2026-09-20", "type": "sell", "symbol": "ARKK", "amount": 60000 },
+    { "date": "2026-10-05", "type": "buy", "symbol": "TSLA", "amount": 150000 }
+  ]
+}

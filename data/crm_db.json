@@ -1,0 +1,20 @@
+{
+  "C001": {
+    "risk_tolerance": "moderate",
+    "investment_horizon_years": 15,
+    "kyc_status": "verified",
+    "annual_income": 180000,
+    "liquidity_needs": "low",
+    "advisor_notes": "Long-term investor; prefers low-cost index funds. Reviewed quarterly.",
+    "last_review_date": "2026-07-15"
+  },
+  "C002": {
+    "risk_tolerance": "moderate",
+    "investment_horizon_years": 8,
+    "kyc_status": "pending",
+    "annual_income": 250000,
+    "liquidity_needs": "medium",
+    "advisor_notes": "Recently moved assets in; concentrated single-stock position flagged by advisor.",
+    "last_review_date": "2026-06-01"
+  }
+}

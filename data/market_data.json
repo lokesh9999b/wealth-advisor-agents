@@ -1,0 +1,10 @@
+{
+  "as_of": "2026-10-19",
+  "benchmarks": {
+    "conservative": { "equity": 0.30, "fixed_income": 0.60, "cash": 0.10 },
+    "moderate": { "equity": 0.60, "fixed_income": 0.30, "cash": 0.10 },
+    "aggressive": { "equity": 0.80, "fixed_income": 0.15, "cash": 0.05 }
+  },
+  "index_returns_ytd": { "equity": 0.124, "fixed_income": 0.031, "cash": 0.047 },
+  "average_fee_ratio": 0.012
+}
